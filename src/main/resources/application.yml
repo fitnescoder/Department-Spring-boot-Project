@@ -1,0 +1,64 @@
+server:
+  port: '8082'
+
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/dcbapp'
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+welcome:
+  message: 'Hello..I am here inside app prop'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env,beans"
+
+---
+
+spring:
+  profiles: qa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/dcbapp-qa'
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+welcome:
+  message: 'Hello..I am here inside app prop'
+
+---
+spring:
+  profiles: prod
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/dcbappprod'
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+welcome:
+  message: 'Hello..I am here inside app prop'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
