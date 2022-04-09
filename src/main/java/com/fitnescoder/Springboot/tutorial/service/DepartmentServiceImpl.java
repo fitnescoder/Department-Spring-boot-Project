@@ -1,8 +1,8 @@
-package com.dailycodebuffer.Springboot.tutorial.service;
+package com.fitnescoder.Springboot.tutorial.service;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.exception.DepartmentNotFoundException;
-import com.dailycodebuffer.Springboot.tutorial.repository.DepartmentRepository;
+import com.fitnescoder.Springboot.tutorial.entity.Department;
+import com.fitnescoder.Springboot.tutorial.exception.DepartmentNotFoundException;
+import com.fitnescoder.Springboot.tutorial.repository.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

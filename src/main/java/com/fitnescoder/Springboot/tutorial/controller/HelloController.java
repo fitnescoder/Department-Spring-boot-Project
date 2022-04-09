@@ -1,4 +1,4 @@
-package com.dailycodebuffer.Springboot.tutorial.controller;
+package com.fitnescoder.Springboot.tutorial.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

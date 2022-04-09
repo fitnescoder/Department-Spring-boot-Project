@@ -1,4 +1,4 @@
-package com.dailycodebuffer.Springboot.tutorial.entity;
+package com.fitnescoder.Springboot.tutorial.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

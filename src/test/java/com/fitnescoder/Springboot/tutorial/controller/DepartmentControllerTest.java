@@ -1,8 +1,7 @@
-package com.dailycodebuffer.Springboot.tutorial.controller;
+package com.fitnescoder.Springboot.tutorial.controller;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.exception.DepartmentNotFoundException;
-import com.dailycodebuffer.Springboot.tutorial.service.DepartmentService;
+import com.fitnescoder.Springboot.tutorial.entity.Department;
+import com.fitnescoder.Springboot.tutorial.service.DepartmentService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

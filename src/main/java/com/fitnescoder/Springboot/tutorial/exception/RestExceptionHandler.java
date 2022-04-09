@@ -1,6 +1,6 @@
-package com.dailycodebuffer.Springboot.tutorial.exception;
+package com.fitnescoder.Springboot.tutorial.exception;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.ErrorMessage;
+import com.fitnescoder.Springboot.tutorial.entity.ErrorMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,7 @@
-package com.dailycodebuffer.Springboot.tutorial.service;
+package com.fitnescoder.Springboot.tutorial.service;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.exception.DepartmentNotFoundException;
+import com.fitnescoder.Springboot.tutorial.entity.Department;
+import com.fitnescoder.Springboot.tutorial.exception.DepartmentNotFoundException;
 
 import java.util.List;
 

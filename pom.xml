@@ -8,7 +8,7 @@
 		<version>2.6.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.dailycodebuffer</groupId>
+	<groupId>com.fitnescoder</groupId>
 	<artifactId>Spring-boot-tutorial</artifactId>
 	<version>0.0.1</version>
 	<name>Spring-boot-tutorial</name>

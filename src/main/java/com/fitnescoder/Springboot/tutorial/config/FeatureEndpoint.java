@@ -1,4 +1,4 @@
-package com.dailycodebuffer.Springboot.tutorial.config;
+package com.fitnescoder.Springboot.tutorial.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

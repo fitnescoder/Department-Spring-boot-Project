@@ -1,4 +1,4 @@
-package com.dailycodebuffer.Springboot.tutorial;
+package com.fitnescoder.Springboot.tutorial;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
