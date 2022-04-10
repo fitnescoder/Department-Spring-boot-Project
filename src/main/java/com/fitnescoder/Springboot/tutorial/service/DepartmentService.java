@@ -19,4 +19,6 @@ public interface DepartmentService {
     Department getDepartmentByName(String deptName);
 
     Department getDepartmentByDeptId(String id);
+
+    Department updateDepartmentWithName(Long deptId, Department department) throws DepartmentNotFoundException;
 }

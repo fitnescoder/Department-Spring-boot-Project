@@ -54,4 +54,9 @@ public class DepartmentController {
     public Department getDepartmentByDeptId(@PathVariable String id) {
         return departmentService.getDepartmentByDeptId(id);
     }
+
+    @PatchMapping("/departments/{id}")
+    public Department updateDepartmentWithName(@PathVariable("id") Long deptId,@RequestBody Department department) throws DepartmentNotFoundException {
+        return departmentService.updateDepartmentWithName(deptId,department);
+    }
 }

@@ -70,4 +70,17 @@ public class DepartmentServiceImpl implements  DepartmentService{
     public Department getDepartmentByDeptId(String id) {
         return departmentRepository.findDepartmentByDeptId(id);
     }
+
+    @Override
+    public Department updateDepartmentWithName(Long deptId, Department department) throws DepartmentNotFoundException {
+        Department dbDept=departmentRepository.findById(deptId).get();
+
+        if(Objects.nonNull(dbDept.getDepartmentName()) && !"".equalsIgnoreCase(dbDept.getDepartmentName())){
+            dbDept.setDepartmentName(department.getDepartmentName());
+        } else {
+            throw new DepartmentNotFoundException("Department with id :"+deptId +"is not available");
+        }
+
+        return departmentRepository.save(dbDept);
+    }
 }
